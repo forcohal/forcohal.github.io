@@ -1,0 +1,49 @@
+
+#one{
+    border: brown;
+    border-color: rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
+    border-style: groove;}
+#head{
+    text-align:inherit;
+}
+#two{
+    border: brown;
+    border-color: rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
+    border-style: solid;}
+
+img.tttt1{
+float:left ;
+
+height:300px;
+width: 550px;}
+
+#three{
+    border: brown;
+    border-color: rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
+    border-style: solid;
+
+}
+img.tttt2{
+        float: right;
+        height: 300px;
+        width: 550px;
+    }
+
+
+#four{
+    border: brown;
+    border-color: rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
+    border-style: solid;
+
+}
+img.rd{
+    float: left;
+        height: 300px;
+        width: 550px;
+
+;
+}

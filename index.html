@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>my first web!</title>
+        <style type="text/css">
+            body {background-color: #000000;
+            color: #f8f8f8;}
+            </style>
+
+    </head>
+    <body>
+        <h1><marquee behavior="alternate" dir="up" scrollamount="25"><h1> Forcohal</h1></marquee><hr/>
+        <a href="F:\yash\for html\about_me2.html"> <center><h1>About me</h1></center></a>
+        <p id="my-text" style="font-family: 'Courier New', Courier, monospace;"></p>
+    <script type="text/javascript">
+    function date(){ 
+        var newDate = new Date();
+        var date = newDate.getDate()
+        var month = newDate.getMonth()
+        var year = newDate.getFullYear()
+        document.getElementById("my-text").innerText = date+"/"+month+"/"+year
+        console.log(newDate)
+        }
+    date()
+        </script>
+         
+
+         
+
+    </body>
+</html>
